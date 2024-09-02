@@ -34,8 +34,8 @@ importers:
         specifier: 2.0.0
         version: 2.0.0
       '@fontsource-variable/inter':
-        specifier: 5.0.15
-        version: 5.0.15
+        specifier: 5.0.20
+        version: 5.0.20
       '@fontsource/ibm-plex-mono':
         specifier: 5.0.5
         version: 5.0.5
@@ -1674,8 +1674,8 @@ packages:
   '@floating-ui/utils@0.2.7':
     resolution: {integrity: sha512-X8R8Oj771YRl/w+c1HqAC1szL8zWQRwFvgDwT129k9ACdBoud/+/rX9V0qiMl6LWUdP9voC2nDVZYPMQQsb6eA==}
 
-  '@fontsource-variable/inter@5.0.15':
-    resolution: {integrity: sha512-CdQPQQgOVxg6ifmbrqYZeUqtQf7p2wPn6EvJ4M+vdNnsmYZgYwPPPQDNlIOU7LCUlSGaN26v6H0uA030WKn61g==}
+  '@fontsource-variable/inter@5.0.20':
+    resolution: {integrity: sha512-dhzG4Zls/tIrf8h0FhTNi8jT/uFwNhdTY2vKe6DYqoXDYOfEcTVZDyh1hKml1rlLT44Y7OoKoGz8w7czDW7twQ==}
 
   '@fontsource/ibm-plex-mono@5.0.5':
     resolution: {integrity: sha512-A1rDiQB7X7oOgsZbjeSQV3r/ZOBEZDjKEnlLvWqd4sMBZwGKTDnCxQYoqedY/8if2NXyiQoLXPdV5RpQ/3BerQ==}
@@ -8471,7 +8471,7 @@ snapshots:
 
   '@floating-ui/utils@0.2.7': {}
 
-  '@fontsource-variable/inter@5.0.15': {}
+  '@fontsource-variable/inter@5.0.20': {}
 
   '@fontsource/ibm-plex-mono@5.0.5': {}
 
