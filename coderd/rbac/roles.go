@@ -284,13 +284,15 @@ func ReloadBuiltinRoles(opts *RoleOptions) {
 		User: append(allPermsExcept(ResourceWorkspaceDormant, ResourceUser, ResourceOrganizationMember),
 			Permissions(map[string][]policy.Action{
 				// Reduced permission set on dormant workspaces. No build, ssh, or exec
-				ResourceWorkspaceDormant.Type: {policy.ActionRead, policy.ActionDelete, policy.ActionCreate, policy.ActionUpdate, policy.ActionWorkspaceStop},
+				// @kehanzhang kehan zhang removed policy.ActionCreate from workspace and policy.ActionCreate from ResourceProvisionerDaemon.Type: {policy.ActionRead, policy.ActionRead, policy.ActionUpdate},
+
+				ResourceWorkspaceDormant.Type: {policy.ActionRead, policy.ActionDelete,  policy.ActionUpdate, policy.ActionWorkspaceStop},
 
 				// Users cannot do create/update/delete on themselves, but they
 				// can read their own details.
 				ResourceUser.Type: {policy.ActionRead, policy.ActionReadPersonal, policy.ActionUpdatePersonal},
 				// Users can create provisioner daemons scoped to themselves.
-				ResourceProvisionerDaemon.Type: {policy.ActionRead, policy.ActionCreate, policy.ActionRead, policy.ActionUpdate},
+				ResourceProvisionerDaemon.Type: {policy.ActionRead, policy.ActionRead, policy.ActionUpdate},
 			})...,
 		),
 	}.withCachedRegoValue()

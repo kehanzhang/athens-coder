@@ -364,6 +364,24 @@ func (api *API) postWorkspacesByOrganization(rw http.ResponseWriter, r *http.Req
 		}
 	)
 
+
+	//kehanzhang
+	// api.Logger.Info(ctx, "Organization member details",
+	// 	slog.F("user_id", member.UserID),
+	// 	slog.F("organization_id", member.OrganizationID),
+	// 	slog.F("created_at", member.CreatedAt),
+	// 	slog.F("updated_at", member.UpdatedAt),
+	// 	slog.F("username", member.Username),
+	// 	slog.F("avatar_url", member.AvatarURL),
+	// 	slog.F("roles", member.Roles),
+	// )
+
+	// if len(member.Roles) == 0 {
+
+	// 	return
+	// }
+
+
 	aReq, commitAudit := audit.InitRequest[database.Workspace](rw, &audit.RequestParams{
 		Audit:            *auditor,
 		Log:              api.Logger,
@@ -412,6 +430,17 @@ func (api *API) postUserWorkspaces(rw http.ResponseWriter, r *http.Request) {
 		auditor = api.Auditor.Load()
 		user    = httpmw.UserParam(r)
 	)
+
+
+	//kehan zhang
+	// if len(user.RBACRoles) == 0 {
+	// 	httpapi.Write(ctx, rw, http.StatusForbidden, codersdk.Response{
+	// 		Message: "Unauthorized to create workspace.",
+	// 		Detail:  fmt.Sprintf("Only the owner can create a workspace. user: %+v", user),
+	// 	})
+	// 	return
+	// }
+
 
 	aReq, commitAudit := audit.InitRequest[database.Workspace](rw, &audit.RequestParams{
 		Audit:   *auditor,

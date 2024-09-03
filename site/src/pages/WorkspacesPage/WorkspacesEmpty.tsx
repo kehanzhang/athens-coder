@@ -22,9 +22,9 @@ export const WorkspacesEmpty: FC<WorkspacesEmptyProps> = ({
 
 	const totalFeaturedTemplates = 6;
 	const featuredTemplates = templates?.slice(0, totalFeaturedTemplates);
-	const defaultTitle = "Create a workspace";
+	const defaultTitle = "Welcome to Athens";
 	const defaultMessage =
-		"A workspace is your personal, customizable development environment.";
+		"Select a project";
 	const defaultImage = (
 		<div
 			css={{
