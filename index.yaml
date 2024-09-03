@@ -3,7 +3,7 @@ entries:
   coder:
   - apiVersion: v2
     appVersion: 0.2.1
-    created: "2024-09-03T15:23:33.478056-07:00"
+    created: "2024-09-03T15:36:54.801881-07:00"
     dependencies:
     - name: libcoder
       repository: file://../libcoder
@@ -19,6 +19,6 @@ entries:
     name: coder
     type: application
     urls:
-    - https://kehanzhang.github.io/athen-coder/coder-0.2.1.tgz
+    - https://kehanzhang.github.io/athen-coder/build/coder-0.2.1.tgz
     version: 0.2.1
-generated: "2024-09-03T15:23:33.477101-07:00"
+generated: "2024-09-03T15:36:54.798154-07:00"
