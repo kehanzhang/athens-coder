@@ -70,7 +70,7 @@ if [[ "${CODER_RELEASE:-}" == *t* ]]; then
 		error "version.sh: the current commit is not tagged with an annotated tag"
 	fi
 else
-	version+="-devel+$(git rev-parse --short HEAD)"
+	version+="-kz-$(git rev-parse --short HEAD)"
 fi
 
 # Remove the "v" prefix.

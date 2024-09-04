@@ -198,3 +198,7 @@ Usage:
         {{- tpl (.value | toYaml) .context }}
     {{- end }}
 {{- end -}}
+
+   {{- define "coder.sanitizeVersion" -}}
+   {{- . | replace "+" "-" | trunc 63 | trimSuffix "-" -}}
+   {{- end -}}
