@@ -11,7 +11,7 @@ import type { FC } from "react";
 import { docs } from "utils/docs";
 
 const Language = {
-	workspaceTooltipTitle: "What is a workspace?",
+	workspaceTooltipTitle: "THIS IS A FRONT END CHANGE?",
 	workspaceTooltipText:
 		"A workspace is your development environment in the cloud. It includes the infrastructure and tools you need to work on your project.",
 	workspaceTooltipLink1: "Create Workspaces",

@@ -55,7 +55,7 @@ const NavItems: FC<NavItemsProps> = ({ className }) => {
 				]}
 				to="/workspaces"
 			>
-				{Language.workspaces}
+				Sandboxes
 			</NavLink>
 			<NavLink css={styles.link} to="/templates">
 				{Language.templates}

@@ -3,7 +3,7 @@ entries:
   coder:
   - apiVersion: v2
     appVersion: 2.14.2-devel+64a2bfff6
-    created: "2024-09-03T18:33:38.462471-07:00"
+    created: "2024-09-03T18:36:32.618923-07:00"
     dependencies:
     - name: libcoder
       repository: file://../libcoder
@@ -21,4 +21,4 @@ entries:
     urls:
     - https://kehanzhang.github.io/athens-coder/charts/coder_helm_2.14.2-devel+64a2bfff6.tgz
     version: 2.14.2-devel+64a2bfff6
-generated: "2024-09-03T18:33:38.460326-07:00"
+generated: "2024-09-03T18:36:32.616169-07:00"
