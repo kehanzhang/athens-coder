@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  coder:
+  - apiVersion: v2
+    appVersion: 2.14.2-devel+64a2bfff6
+    created: "2024-09-03T18:36:32.618923-07:00"
+    dependencies:
+    - name: libcoder
+      repository: file://../libcoder
+      version: 0.1.0
+    description: Remote development environments on your infrastructure
+    digest: 935b52333ed5ebc9ff5f1138b520e1a813b9c9142b5a867c399982fbcd5f01a7
+    home: https://github.com/coder/coder
+    icon: https://helm.coder.com/coder_logo_black.png
+    keywords:
+    - coder
+    - terraform
+    kubeVersion: '>= 1.19.0-0'
+    name: coder
+    type: application
+    urls:
+    - https://kehanzhang.github.io/athens-coder/coder_helm_2.14.2-devel+64a2bfff6.tgz
+    version: 2.14.2-devel+64a2bfff6
+generated: "2024-09-03T18:36:32.616169-07:00"
