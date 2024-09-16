@@ -91,7 +91,7 @@ require (
 	github.com/coder/pretty v0.0.0-20230908205945-e89ba86370e0
 	github.com/coder/quartz v0.1.0
 	github.com/coder/retry v1.5.1
-	github.com/coder/terraform-provider-coder v0.23.0
+	github.com/coder/terraform-provider-coder v1.0.2
 	github.com/coder/wgtunnel v0.1.13-0.20240522110300-ade90dfb2da0
 	github.com/coreos/go-oidc/v3 v3.11.0
 	github.com/coreos/go-systemd v0.0.0-20191104093116-d3cd4ed1dbcf
@@ -219,7 +219,6 @@ require (
 	github.com/alecthomas/chroma/v2 v2.14.0 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.11.2 // indirect
 	github.com/charmbracelet/x/ansi v0.1.4 // indirect
-	github.com/distribution/reference v0.6.0 // indirect
 	github.com/go-jose/go-jose/v4 v4.0.2 // indirect
 	github.com/go-viper/mapstructure/v2 v2.0.0 // indirect
 	github.com/hashicorp/go-retryablehttp v0.7.7 // indirect
