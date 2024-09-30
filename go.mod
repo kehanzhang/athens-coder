@@ -163,7 +163,7 @@ require (
 	github.com/tidwall/gjson v1.17.0
 	github.com/u-root/u-root v0.14.0
 	github.com/unrolled/secure v1.14.0
-	github.com/valyala/fasthttp v1.55.0
+	github.com/valyala/fasthttp v1.56.0
 	github.com/wagslane/go-password-validator v0.3.0
 	go.mozilla.org/pkcs7 v0.0.0-20200128120323-432b2356ecb1
 	go.nhat.io/otelsql v0.13.0
@@ -175,15 +175,15 @@ require (
 	go.uber.org/atomic v1.11.0
 	go.uber.org/goleak v1.3.1-0.20240429205332-517bace7cc29
 	go4.org/netipx v0.0.0-20230728180743-ad4cb58a6516
-	golang.org/x/crypto v0.26.0
+	golang.org/x/crypto v0.27.0
 	golang.org/x/exp v0.0.0-20240808152545-0cdaa3abc0fa
 	golang.org/x/mod v0.20.0
-	golang.org/x/net v0.28.0
+	golang.org/x/net v0.29.0
 	golang.org/x/oauth2 v0.22.0
 	golang.org/x/sync v0.8.0
-	golang.org/x/sys v0.24.0
-	golang.org/x/term v0.23.0
-	golang.org/x/text v0.17.0
+	golang.org/x/sys v0.25.0
+	golang.org/x/term v0.24.0
+	golang.org/x/text v0.18.0
 	golang.org/x/tools v0.24.0
 	golang.org/x/xerrors v0.0.0-20240716161551-93cc26a95ae9
 	google.golang.org/api v0.192.0
