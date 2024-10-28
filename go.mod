@@ -99,7 +99,7 @@ require (
 	github.com/dave/dst v0.27.2
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
 	github.com/elastic/go-sysinfo v1.14.0
-	github.com/fatih/color v1.17.0
+	github.com/fatih/color v1.18.0
 	github.com/fatih/structs v1.1.0
 	github.com/fatih/structtag v1.2.0
 	github.com/fergusstrange/embedded-postgres v1.29.0
@@ -181,7 +181,7 @@ require (
 	golang.org/x/net v0.28.0
 	golang.org/x/oauth2 v0.22.0
 	golang.org/x/sync v0.8.0
-	golang.org/x/sys v0.24.0
+	golang.org/x/sys v0.25.0
 	golang.org/x/term v0.23.0
 	golang.org/x/text v0.17.0
 	golang.org/x/tools v0.24.0
