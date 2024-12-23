@@ -1,6 +1,7 @@
 module github.com/coder/coder/v2
 
 go 1.22.5
+toolchain go1.22.10
 
 // Required until a v3 of chroma is created to lazily initialize all XML files.
 // None of our dependencies seem to use the registries anyways, so this
@@ -69,7 +70,7 @@ replace github.com/lib/pq => github.com/coder/pq v1.10.5-0.20240813183442-0c420c
 
 require (
 	cdr.dev/slog v1.6.2-0.20240126064726-20367d4aede6
-	cloud.google.com/go/compute/metadata v0.5.0
+	cloud.google.com/go/compute/metadata v0.5.2
 	github.com/AlecAivazis/survey/v2 v2.3.5
 	github.com/acarl005/stripansi v0.0.0-20180116102854-5a71ef0e047d
 	github.com/adrg/xdg v0.5.0
@@ -142,13 +143,13 @@ require (
 	github.com/mitchellh/mapstructure v1.5.1-0.20231216201459-8508981c8b6c
 	github.com/moby/moby v27.1.1+incompatible
 	github.com/muesli/termenv v0.15.3-0.20240618155329-98d742f6907a
-	github.com/open-policy-agent/opa v0.67.0
+	github.com/open-policy-agent/opa v1.0.0
 	github.com/ory/dockertest/v3 v3.11.0
 	github.com/pion/udp v0.1.4
 	github.com/pkg/browser v0.0.0-20240102092130-5ac0b6a4141c
 	github.com/pkg/diff v0.0.0-20210226163009-20ebb0f2a09e
 	github.com/pkg/sftp v1.13.6
-	github.com/prometheus/client_golang v1.20.1
+	github.com/prometheus/client_golang v1.20.5
 	github.com/prometheus/client_model v0.6.1
 	github.com/prometheus/common v0.55.0
 	github.com/quasilyte/go-ruleguard/dsl v0.3.21
@@ -157,7 +158,7 @@ require (
 	github.com/spf13/afero v1.11.0
 	github.com/spf13/pflag v1.0.5
 	github.com/sqlc-dev/pqtype v0.3.0
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.10.0
 	github.com/swaggo/http-swagger/v2 v2.0.1
 	github.com/swaggo/swag v1.16.2
 	github.com/tidwall/gjson v1.17.0
@@ -167,28 +168,28 @@ require (
 	github.com/wagslane/go-password-validator v0.3.0
 	go.mozilla.org/pkcs7 v0.0.0-20200128120323-432b2356ecb1
 	go.nhat.io/otelsql v0.13.0
-	go.opentelemetry.io/otel v1.28.0
-	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.28.0
-	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.28.0
-	go.opentelemetry.io/otel/sdk v1.28.0
-	go.opentelemetry.io/otel/trace v1.28.0
+	go.opentelemetry.io/otel v1.33.0
+	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.33.0
+	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.33.0
+	go.opentelemetry.io/otel/sdk v1.33.0
+	go.opentelemetry.io/otel/trace v1.33.0
 	go.uber.org/atomic v1.11.0
 	go.uber.org/goleak v1.3.1-0.20240429205332-517bace7cc29
 	go4.org/netipx v0.0.0-20230728180743-ad4cb58a6516
-	golang.org/x/crypto v0.26.0
+	golang.org/x/crypto v0.31.0
 	golang.org/x/exp v0.0.0-20240808152545-0cdaa3abc0fa
 	golang.org/x/mod v0.20.0
-	golang.org/x/net v0.28.0
-	golang.org/x/oauth2 v0.22.0
-	golang.org/x/sync v0.8.0
-	golang.org/x/sys v0.24.0
-	golang.org/x/term v0.23.0
-	golang.org/x/text v0.17.0
+	golang.org/x/net v0.33.0
+	golang.org/x/oauth2 v0.24.0
+	golang.org/x/sync v0.10.0
+	golang.org/x/sys v0.28.0
+	golang.org/x/term v0.27.0
+	golang.org/x/text v0.21.0
 	golang.org/x/tools v0.24.0
 	golang.org/x/xerrors v0.0.0-20240716161551-93cc26a95ae9
 	google.golang.org/api v0.192.0
-	google.golang.org/grpc v1.65.0
-	google.golang.org/protobuf v1.34.2
+	google.golang.org/grpc v1.69.2
+	google.golang.org/protobuf v1.35.2
 	gopkg.in/DataDog/dd-trace-go.v1 v1.66.0
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 	gopkg.in/yaml.v3 v3.0.1
@@ -230,7 +231,8 @@ require (
 	github.com/pion/transport/v2 v2.2.10 // indirect
 	github.com/pion/transport/v3 v3.0.7 // indirect
 	github.com/tdewolff/test v1.0.11-0.20240106005702-7de5f7df4739 // indirect
-	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.53.0 // indirect
+	go.opentelemetry.io/auto/sdk v1.1.0 // indirect
+	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.58.0 // indirect
 )
 
 require (
@@ -251,7 +253,7 @@ require (
 	github.com/OneOfOne/xxhash v1.2.8 // indirect
 	github.com/ProtonMail/go-crypto v1.1.0-alpha.2 // indirect
 	github.com/agext/levenshtein v1.2.3 // indirect
-	github.com/agnivade/levenshtein v1.1.1 // indirect
+	github.com/agnivade/levenshtein v1.2.0 // indirect
 	github.com/akutz/memconn v0.1.0 // indirect
 	github.com/alexbrainman/sspi v0.0.0-20210105120005-909beea2cc74 // indirect
 	github.com/anmitsu/go-shlex v0.0.0-20200514113438-38f4b401e2be // indirect
@@ -326,7 +328,7 @@ require (
 	github.com/googleapis/enterprise-certificate-proxy v0.3.2 // indirect
 	github.com/gorilla/css v1.0.1 // indirect
 	github.com/gorilla/mux v1.8.1 // indirect
-	github.com/grpc-ecosystem/grpc-gateway/v2 v2.20.0 // indirect
+	github.com/grpc-ecosystem/grpc-gateway/v2 v2.24.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-cty v1.4.1-0.20200414143053-d3edf31b6320 // indirect
@@ -417,17 +419,17 @@ require (
 	github.com/zeebo/errs v1.3.0 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	go.opentelemetry.io/contrib v1.19.0 // indirect
-	go.opentelemetry.io/otel/metric v1.28.0 // indirect
-	go.opentelemetry.io/proto/otlp v1.3.1 // indirect
+	go.opentelemetry.io/otel/metric v1.33.0 // indirect
+	go.opentelemetry.io/proto/otlp v1.4.0 // indirect
 	go4.org/mem v0.0.0-20220726221520-4f986261bf13 // indirect
-	golang.org/x/time v0.6.0 // indirect
+	golang.org/x/time v0.8.0 // indirect
 	golang.zx2c4.com/wintun v0.0.0-20230126152724-0fa3db229ce2 // indirect
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20230429144221-925a1e7659e6 // indirect
 	golang.zx2c4.com/wireguard/windows v0.5.3 // indirect
 	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/genproto v0.0.0-20240730163845-b1a4ccb954bf // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20240725223205-93522f1f2a9f // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20240730163845-b1a4ccb954bf // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20241209162323-e6fa225c2576 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20241209162323-e6fa225c2576 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	howett.net/plist v1.0.0 // indirect
 	inet.af/peercred v0.0.0-20210906144145-0893ea02156a // indirect
