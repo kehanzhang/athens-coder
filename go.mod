@@ -93,7 +93,7 @@ require (
 	github.com/coder/retry v1.5.1
 	github.com/coder/terraform-provider-coder v0.23.0
 	github.com/coder/wgtunnel v0.1.13-0.20240522110300-ade90dfb2da0
-	github.com/coreos/go-oidc/v3 v3.11.0
+	github.com/coreos/go-oidc/v3 v3.12.0
 	github.com/coreos/go-systemd v0.0.0-20191104093116-d3cd4ed1dbcf
 	github.com/creack/pty v1.1.21
 	github.com/dave/dst v0.27.2
