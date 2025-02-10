@@ -1,6 +1,7 @@
 module github.com/coder/coder/v2
 
 go 1.22.5
+toolchain go1.23.6
 
 // Required until a v3 of chroma is created to lazily initialize all XML files.
 // None of our dependencies seem to use the registries anyways, so this
@@ -84,8 +85,8 @@ require (
 	github.com/cakturk/go-netstat v0.0.0-20200220111822-e5b49efee7a5
 	github.com/cenkalti/backoff/v4 v4.3.0
 	github.com/charmbracelet/glamour v0.8.0
-	github.com/chromedp/cdproto v0.0.0-20240801214329-3f85d328b335
-	github.com/chromedp/chromedp v0.10.0
+	github.com/chromedp/cdproto v0.0.0-20250120090109-d38428e4d9c8
+	github.com/chromedp/chromedp v0.12.1
 	github.com/cli/safeexec v1.0.1
 	github.com/coder/flog v1.1.0
 	github.com/coder/pretty v0.0.0-20230908205945-e89ba86370e0
@@ -181,7 +182,7 @@ require (
 	golang.org/x/net v0.28.0
 	golang.org/x/oauth2 v0.22.0
 	golang.org/x/sync v0.8.0
-	golang.org/x/sys v0.24.0
+	golang.org/x/sys v0.29.0
 	golang.org/x/term v0.23.0
 	golang.org/x/text v0.17.0
 	golang.org/x/tools v0.24.0
@@ -280,7 +281,7 @@ require (
 	// In later at least v0.7.1, lipgloss changes its terminal detection
 	// which breaks most of our CLI golden files tests.
 	github.com/charmbracelet/lipgloss v0.12.1 // indirect
-	github.com/chromedp/sysutil v1.0.0 // indirect
+	github.com/chromedp/sysutil v1.1.0 // indirect
 	github.com/clbanning/mxj/v2 v2.7.0 // indirect
 	github.com/cloudflare/circl v1.3.7 // indirect
 	github.com/containerd/continuity v0.4.3 // indirect
@@ -349,7 +350,7 @@ require (
 	github.com/kr/fs v0.1.0 // indirect
 	github.com/leodido/go-urn v1.4.0 // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
-	github.com/mailru/easyjson v0.7.7 // indirect
+	github.com/mailru/easyjson v0.9.0 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-runewidth v0.0.16 // indirect
 	github.com/mdlayher/genetlink v1.3.2 // indirect
