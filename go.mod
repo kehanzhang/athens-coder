@@ -1,6 +1,7 @@
 module github.com/coder/coder/v2
 
 go 1.22.5
+toolchain go1.24.1
 
 // Required until a v3 of chroma is created to lazily initialize all XML files.
 // None of our dependencies seem to use the registries anyways, so this
@@ -154,7 +155,7 @@ require (
 	github.com/quasilyte/go-ruleguard/dsl v0.3.21
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966
-	github.com/spf13/afero v1.11.0
+	github.com/spf13/afero v1.14.0
 	github.com/spf13/pflag v1.0.5
 	github.com/sqlc-dev/pqtype v0.3.0
 	github.com/stretchr/testify v1.9.0
@@ -180,10 +181,10 @@ require (
 	golang.org/x/mod v0.20.0
 	golang.org/x/net v0.28.0
 	golang.org/x/oauth2 v0.22.0
-	golang.org/x/sync v0.8.0
+	golang.org/x/sync v0.12.0
 	golang.org/x/sys v0.24.0
 	golang.org/x/term v0.23.0
-	golang.org/x/text v0.17.0
+	golang.org/x/text v0.23.0
 	golang.org/x/tools v0.24.0
 	golang.org/x/xerrors v0.0.0-20240716161551-93cc26a95ae9
 	google.golang.org/api v0.192.0
