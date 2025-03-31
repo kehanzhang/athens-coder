@@ -1,6 +1,7 @@
 module github.com/coder/coder/v2
 
 go 1.22.5
+toolchain go1.24.1
 
 // Required until a v3 of chroma is created to lazily initialize all XML files.
 // None of our dependencies seem to use the registries anyways, so this
@@ -140,7 +141,7 @@ require (
 	github.com/mattn/go-isatty v0.0.20
 	github.com/mitchellh/go-wordwrap v1.0.1
 	github.com/mitchellh/mapstructure v1.5.1-0.20231216201459-8508981c8b6c
-	github.com/moby/moby v27.1.1+incompatible
+	github.com/moby/moby v28.0.4+incompatible
 	github.com/muesli/termenv v0.15.3-0.20240618155329-98d742f6907a
 	github.com/open-policy-agent/opa v0.67.0
 	github.com/ory/dockertest/v3 v3.11.0
