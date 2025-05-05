@@ -1,6 +1,7 @@
 module github.com/coder/coder/v2
 
 go 1.22.5
+toolchain go1.24.1
 
 // Required until a v3 of chroma is created to lazily initialize all XML files.
 // None of our dependencies seem to use the registries anyways, so this
@@ -198,7 +199,7 @@ require (
 	tailscale.com v1.46.1
 )
 
-require go.uber.org/mock v0.4.0
+require go.uber.org/mock v0.5.2
 
 require (
 	github.com/cespare/xxhash v1.1.0
