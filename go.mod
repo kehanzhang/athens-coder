@@ -203,8 +203,8 @@ require go.uber.org/mock v0.4.0
 require (
 	github.com/cespare/xxhash v1.1.0
 	github.com/coder/serpent v0.7.1-0.20240822034013-1b2301f8c920
-	github.com/emersion/go-sasl v0.0.0-20200509203442-7bfe0ed36a21
-	github.com/emersion/go-smtp v0.21.2
+	github.com/emersion/go-sasl v0.0.0-20241020182733-b788ff22d5a6
+	github.com/emersion/go-smtp v0.22.0
 	github.com/gomarkdown/markdown v0.0.0-20231222211730-1d6d20845b47
 	github.com/google/go-github/v61 v61.0.0
 	github.com/mocktools/go-smtp-mock/v2 v2.3.0
