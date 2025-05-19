@@ -132,7 +132,7 @@ require (
 	github.com/imulab/go-scim/pkg/v2 v2.2.0
 	github.com/jedib0t/go-pretty/v6 v6.5.0
 	github.com/jmoiron/sqlx v1.4.0
-	github.com/justinas/nosurf v1.1.1
+	github.com/justinas/nosurf v1.2.0
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
 	github.com/kirsle/configdir v0.0.0-20170128060238-e45d2f54772f
 	github.com/klauspost/compress v1.17.9
