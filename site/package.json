@@ -98,7 +98,7 @@
 		"undici": "6.19.7",
 		"unique-names-generator": "4.7.1",
 		"uuid": "9.0.0",
-		"yup": "1.4.0"
+		"yup": "1.6.1"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.8.3",
