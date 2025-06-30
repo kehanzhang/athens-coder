@@ -157,7 +157,7 @@ require (
 	github.com/spf13/afero v1.11.0
 	github.com/spf13/pflag v1.0.5
 	github.com/sqlc-dev/pqtype v0.3.0
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.10.0
 	github.com/swaggo/http-swagger/v2 v2.0.1
 	github.com/swaggo/swag v1.16.2
 	github.com/tidwall/gjson v1.17.0
@@ -207,7 +207,7 @@ require (
 	github.com/emersion/go-smtp v0.21.2
 	github.com/gomarkdown/markdown v0.0.0-20231222211730-1d6d20845b47
 	github.com/google/go-github/v61 v61.0.0
-	github.com/mocktools/go-smtp-mock/v2 v2.3.0
+	github.com/mocktools/go-smtp-mock/v2 v2.5.1
 	github.com/natefinch/atomic v1.0.1
 )
 
