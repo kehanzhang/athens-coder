@@ -1,6 +1,6 @@
 module github.com/coder/coder/v2
 
-go 1.22.5
+go 1.23.0
 
 // Required until a v3 of chroma is created to lazily initialize all XML files.
 // None of our dependencies seem to use the registries anyways, so this
@@ -175,15 +175,15 @@ require (
 	go.uber.org/atomic v1.11.0
 	go.uber.org/goleak v1.3.1-0.20240429205332-517bace7cc29
 	go4.org/netipx v0.0.0-20230728180743-ad4cb58a6516
-	golang.org/x/crypto v0.26.0
+	golang.org/x/crypto v0.38.0
 	golang.org/x/exp v0.0.0-20240808152545-0cdaa3abc0fa
 	golang.org/x/mod v0.20.0
 	golang.org/x/net v0.28.0
 	golang.org/x/oauth2 v0.22.0
-	golang.org/x/sync v0.8.0
-	golang.org/x/sys v0.24.0
-	golang.org/x/term v0.23.0
-	golang.org/x/text v0.17.0
+	golang.org/x/sync v0.14.0
+	golang.org/x/sys v0.33.0
+	golang.org/x/term v0.32.0
+	golang.org/x/text v0.25.0
 	golang.org/x/tools v0.24.0
 	golang.org/x/xerrors v0.0.0-20240716161551-93cc26a95ae9
 	google.golang.org/api v0.192.0
@@ -333,7 +333,7 @@ require (
 	github.com/hashicorp/go-hclog v1.6.3 // indirect
 	github.com/hashicorp/go-uuid v1.0.3 // indirect
 	github.com/hashicorp/hcl v1.0.1-vault-5 // indirect
-	github.com/hashicorp/hcl/v2 v2.21.0
+	github.com/hashicorp/hcl/v2 v2.24.0
 	github.com/hashicorp/logutils v1.0.0 // indirect
 	github.com/hashicorp/terraform-plugin-go v0.12.0 // indirect
 	github.com/hashicorp/terraform-plugin-log v0.7.0 // indirect
@@ -413,7 +413,7 @@ require (
 	github.com/yashtewari/glob-intersection v0.2.0 // indirect
 	github.com/yuin/goldmark v1.7.4 // indirect
 	github.com/yuin/goldmark-emoji v1.0.3 // indirect
-	github.com/zclconf/go-cty v1.15.0
+	github.com/zclconf/go-cty v1.16.3
 	github.com/zeebo/errs v1.3.0 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	go.opentelemetry.io/contrib v1.19.0 // indirect
