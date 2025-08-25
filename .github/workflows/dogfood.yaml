@@ -27,11 +27,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Get branch name
         id: branch-name
-        uses: tj-actions/branch-names@v8
+        uses: tj-actions/branch-names@v9
 
       - name: "Branch name to Docker tag name"
         id: docker-tag-name
@@ -84,7 +84,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Terraform
         uses: ./.github/actions/setup-tf
