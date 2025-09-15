@@ -1,6 +1,6 @@
 module github.com/coder/coder/v2
 
-go 1.22.5
+go 1.24.0
 
 // Required until a v3 of chroma is created to lazily initialize all XML files.
 // None of our dependencies seem to use the registries anyways, so this
@@ -74,7 +74,7 @@ require (
 	github.com/acarl005/stripansi v0.0.0-20180116102854-5a71ef0e047d
 	github.com/adrg/xdg v0.5.0
 	github.com/ammario/tlru v0.4.0
-	github.com/andybalholm/brotli v1.1.0
+	github.com/andybalholm/brotli v1.2.0
 	github.com/armon/circbuf v0.0.0-20190214190532-5111143e8da2
 	github.com/awalterschulze/gographviz v2.0.3+incompatible
 	github.com/aws/smithy-go v1.20.3
@@ -135,7 +135,7 @@ require (
 	github.com/justinas/nosurf v1.1.1
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
 	github.com/kirsle/configdir v0.0.0-20170128060238-e45d2f54772f
-	github.com/klauspost/compress v1.17.9
+	github.com/klauspost/compress v1.18.0
 	github.com/lib/pq v1.10.9
 	github.com/mattn/go-isatty v0.0.20
 	github.com/mitchellh/go-wordwrap v1.0.1
@@ -163,7 +163,7 @@ require (
 	github.com/tidwall/gjson v1.17.0
 	github.com/u-root/u-root v0.14.0
 	github.com/unrolled/secure v1.14.0
-	github.com/valyala/fasthttp v1.55.0
+	github.com/valyala/fasthttp v1.66.0
 	github.com/wagslane/go-password-validator v0.3.0
 	go.mozilla.org/pkcs7 v0.0.0-20200128120323-432b2356ecb1
 	go.nhat.io/otelsql v0.13.0
@@ -175,16 +175,16 @@ require (
 	go.uber.org/atomic v1.11.0
 	go.uber.org/goleak v1.3.1-0.20240429205332-517bace7cc29
 	go4.org/netipx v0.0.0-20230728180743-ad4cb58a6516
-	golang.org/x/crypto v0.26.0
+	golang.org/x/crypto v0.42.0
 	golang.org/x/exp v0.0.0-20240808152545-0cdaa3abc0fa
-	golang.org/x/mod v0.20.0
-	golang.org/x/net v0.28.0
+	golang.org/x/mod v0.27.0
+	golang.org/x/net v0.44.0
 	golang.org/x/oauth2 v0.22.0
-	golang.org/x/sync v0.8.0
-	golang.org/x/sys v0.24.0
-	golang.org/x/term v0.23.0
-	golang.org/x/text v0.17.0
-	golang.org/x/tools v0.24.0
+	golang.org/x/sync v0.17.0
+	golang.org/x/sys v0.36.0
+	golang.org/x/term v0.35.0
+	golang.org/x/text v0.29.0
+	golang.org/x/tools v0.36.0
 	golang.org/x/xerrors v0.0.0-20240716161551-93cc26a95ae9
 	google.golang.org/api v0.192.0
 	google.golang.org/grpc v1.65.0
