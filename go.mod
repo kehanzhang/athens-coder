@@ -1,6 +1,6 @@
 module github.com/coder/coder/v2
 
-go 1.22.5
+go 1.23
 
 // Required until a v3 of chroma is created to lazily initialize all XML files.
 // None of our dependencies seem to use the registries anyways, so this
@@ -188,7 +188,7 @@ require (
 	golang.org/x/xerrors v0.0.0-20240716161551-93cc26a95ae9
 	google.golang.org/api v0.192.0
 	google.golang.org/grpc v1.65.0
-	google.golang.org/protobuf v1.34.2
+	google.golang.org/protobuf v1.36.9
 	gopkg.in/DataDog/dd-trace-go.v1 v1.66.0
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 	gopkg.in/yaml.v3 v3.0.1
