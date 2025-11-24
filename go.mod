@@ -202,7 +202,7 @@ require go.uber.org/mock v0.4.0
 
 require (
 	github.com/cespare/xxhash v1.1.0
-	github.com/coder/serpent v0.7.1-0.20240822034013-1b2301f8c920
+	github.com/coder/serpent v0.12.0
 	github.com/emersion/go-sasl v0.0.0-20200509203442-7bfe0ed36a21
 	github.com/emersion/go-smtp v0.21.2
 	github.com/gomarkdown/markdown v0.0.0-20231222211730-1d6d20845b47
@@ -230,6 +230,7 @@ require (
 	github.com/pion/transport/v2 v2.2.10 // indirect
 	github.com/pion/transport/v3 v3.0.7 // indirect
 	github.com/tdewolff/test v1.0.11-0.20240106005702-7de5f7df4739 // indirect
+	github.com/xhit/go-str2duration/v2 v2.1.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.53.0 // indirect
 )
 
