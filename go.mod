@@ -79,7 +79,7 @@ require (
 	github.com/awalterschulze/gographviz v2.0.3+incompatible
 	github.com/aws/smithy-go v1.20.3
 	github.com/bgentry/speakeasy v0.2.0
-	github.com/bramvdbogaerde/go-scp v1.5.0
+	github.com/bramvdbogaerde/go-scp v1.6.0
 	github.com/briandowns/spinner v1.18.1
 	github.com/cakturk/go-netstat v0.0.0-20200220111822-e5b49efee7a5
 	github.com/cenkalti/backoff/v4 v4.3.0
