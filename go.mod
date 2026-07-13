@@ -1,6 +1,6 @@
 module github.com/coder/coder/v2
 
-go 1.22.5
+go 1.25
 
 // Required until a v3 of chroma is created to lazily initialize all XML files.
 // None of our dependencies seem to use the registries anyways, so this
@@ -217,6 +217,7 @@ require (
 	dario.cat/mergo v1.0.0 // indirect
 	github.com/DataDog/go-libddwaf/v3 v3.2.1 // indirect
 	github.com/alecthomas/chroma/v2 v2.14.0 // indirect
+	github.com/apparentlymart/go-textseg/v17 v17.0.1 // indirect
 	github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding v1.11.2 // indirect
 	github.com/charmbracelet/x/ansi v0.1.4 // indirect
 	github.com/distribution/reference v0.6.0 // indirect
@@ -413,7 +414,7 @@ require (
 	github.com/yashtewari/glob-intersection v0.2.0 // indirect
 	github.com/yuin/goldmark v1.7.4 // indirect
 	github.com/yuin/goldmark-emoji v1.0.3 // indirect
-	github.com/zclconf/go-cty v1.15.0
+	github.com/zclconf/go-cty v1.19.0
 	github.com/zeebo/errs v1.3.0 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	go.opentelemetry.io/contrib v1.19.0 // indirect
