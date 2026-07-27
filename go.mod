@@ -1,6 +1,6 @@
 module github.com/coder/coder/v2
 
-go 1.22.5
+go 1.25.0
 
 // Required until a v3 of chroma is created to lazily initialize all XML files.
 // None of our dependencies seem to use the registries anyways, so this
@@ -118,7 +118,7 @@ require (
 	github.com/gohugoio/hugo v0.131.0
 	github.com/golang-jwt/jwt/v4 v4.5.0
 	github.com/golang-migrate/migrate/v4 v4.17.0
-	github.com/google/go-cmp v0.6.0
+	github.com/google/go-cmp v0.7.0
 	github.com/google/go-github/v43 v43.0.1-0.20220414155304-00e42332e405
 	github.com/google/uuid v1.6.0
 	github.com/hashicorp/go-multierror v1.1.1
@@ -135,7 +135,7 @@ require (
 	github.com/justinas/nosurf v1.1.1
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
 	github.com/kirsle/configdir v0.0.0-20170128060238-e45d2f54772f
-	github.com/klauspost/compress v1.17.9
+	github.com/klauspost/compress v1.19.1
 	github.com/lib/pq v1.10.9
 	github.com/mattn/go-isatty v0.0.20
 	github.com/mitchellh/go-wordwrap v1.0.1
@@ -148,16 +148,16 @@ require (
 	github.com/pkg/browser v0.0.0-20240102092130-5ac0b6a4141c
 	github.com/pkg/diff v0.0.0-20210226163009-20ebb0f2a09e
 	github.com/pkg/sftp v1.13.6
-	github.com/prometheus/client_golang v1.20.1
-	github.com/prometheus/client_model v0.6.1
-	github.com/prometheus/common v0.55.0
+	github.com/prometheus/client_golang v1.24.1
+	github.com/prometheus/client_model v0.6.2
+	github.com/prometheus/common v0.70.1
 	github.com/quasilyte/go-ruleguard/dsl v0.3.21
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/skratchdot/open-golang v0.0.0-20200116055534-eef842397966
 	github.com/spf13/afero v1.11.0
 	github.com/spf13/pflag v1.0.5
 	github.com/sqlc-dev/pqtype v0.3.0
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.11.1
 	github.com/swaggo/http-swagger/v2 v2.0.1
 	github.com/swaggo/swag v1.16.2
 	github.com/tidwall/gjson v1.17.0
@@ -175,20 +175,20 @@ require (
 	go.uber.org/atomic v1.11.0
 	go.uber.org/goleak v1.3.1-0.20240429205332-517bace7cc29
 	go4.org/netipx v0.0.0-20230728180743-ad4cb58a6516
-	golang.org/x/crypto v0.26.0
+	golang.org/x/crypto v0.54.0
 	golang.org/x/exp v0.0.0-20240808152545-0cdaa3abc0fa
-	golang.org/x/mod v0.20.0
-	golang.org/x/net v0.28.0
-	golang.org/x/oauth2 v0.22.0
-	golang.org/x/sync v0.8.0
-	golang.org/x/sys v0.24.0
-	golang.org/x/term v0.23.0
-	golang.org/x/text v0.17.0
-	golang.org/x/tools v0.24.0
+	golang.org/x/mod v0.37.0
+	golang.org/x/net v0.57.0
+	golang.org/x/oauth2 v0.36.0
+	golang.org/x/sync v0.22.0
+	golang.org/x/sys v0.47.0
+	golang.org/x/term v0.45.0
+	golang.org/x/text v0.40.0
+	golang.org/x/tools v0.47.0
 	golang.org/x/xerrors v0.0.0-20240716161551-93cc26a95ae9
 	google.golang.org/api v0.192.0
 	google.golang.org/grpc v1.65.0
-	google.golang.org/protobuf v1.34.2
+	google.golang.org/protobuf v1.36.11
 	gopkg.in/DataDog/dd-trace-go.v1 v1.66.0
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 	gopkg.in/yaml.v3 v3.0.1
@@ -376,7 +376,7 @@ require (
 	github.com/pierrec/lz4/v4 v4.1.18 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
-	github.com/prometheus/procfs v0.15.1 // indirect
+	github.com/prometheus/procfs v0.21.1 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
 	github.com/riandyrn/otelchi v0.5.1 // indirect
 	github.com/richardartoul/molecule v1.0.1-0.20240531184615-7ca0df43c0b3 // indirect
